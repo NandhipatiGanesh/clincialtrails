@@ -88,8 +88,8 @@ export default function Header() {
           </Popover>
 
           {/* Additional Links */}
-          <a href="#" className="text-sm font-semibold text-gray-900">Search Clinical Trails</a>
-          <a href="#" className="text-sm font-semibold text-gray-900">Clinical Trails Listing</a>
+          <a href="/clinical-trials" className="text-sm font-semibold text-gray-900">Search Clinical Trails</a>
+          <a href="/clinical-trials/listings" className="text-sm font-semibold text-gray-900">Clinical Trails Listing</a>
           <a href="#" className="text-sm font-semibold text-gray-900">Marketplace</a>
           <a href="#" className="text-sm font-semibold text-gray-900">Company</a>
         </PopoverGroup>
