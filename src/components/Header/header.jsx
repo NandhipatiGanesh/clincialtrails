@@ -129,7 +129,7 @@ export default function Header() {
               <div className="space-y-2 py-6">
                 <Disclosure as="div" className="-mx-3">
                   <DisclosureButton className="group flex w-full items-center justify-between rounded-lg py-2 pr-3.5 pl-3 text-base font-semibold text-gray-900 hover:bg-gray-50">
-                    Product
+                    Services
                     <ChevronDownIcon aria-hidden="true" className="h-5 w-5 flex-none group-data-open:rotate-180" />
                   </DisclosureButton>
                   <DisclosurePanel className="mt-2 space-y-2">
@@ -149,13 +149,13 @@ export default function Header() {
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:bg-gray-50"
                 >
-                  Features
+                  Search Clinical Trails
                 </a>
                 <a
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:bg-gray-50"
                 >
-                  Marketplace
+                  Clinical Trails Listing
                 </a>
                 <a
                   href="#"
